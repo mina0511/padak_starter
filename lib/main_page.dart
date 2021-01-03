@@ -17,18 +17,28 @@ class MainPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: color,
         // 1-1. 상단화면 (제목 수정)
-        title: Image(image: AssetImage('assets/UNIST.gif')),
+        title: Row(children: [
+          Image(image: AssetImage('assets/UNIST.gif')),
+          SizedBox(width: 10),
+          Text(
+            '누낭 잘고야?-준범',
+            style: TextStyle(fontSize: 25, fontFamily: 'Junbum'),
+          ),
+        ]),
         // 1-1. 상단화면 (좌측 버튼 추가)
 
         // 1-1. 상단화면 (우측 팝업 버튼 및 이벤트 추가)
       ),
       // 1-2. 탭 화면 (List, Grid Widget 연동)
       body: Padding(
-          padding: const EdgeInsets.all(10),
-          child: Text(" 졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려",
-              style: TextStyle(
-                fontSize: 10,
-              ))),
+        padding: const EdgeInsets.all(10),
+        child: Text(
+          " 졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려졸려",
+          style: TextStyle(
+            fontSize: 10,
+          ),
+        ),
+      ),
       // 1-2. 탭 화면 (bottomNavigationBar 추가)
     );
   }
