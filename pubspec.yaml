@@ -46,6 +46,12 @@ flutter:
   assets:
     - assets/
     - assets/UNIST.gif
+    - C:\Users\MINA\Documents\GitHub\padak_starter\assets\2.0x\ic_12.png
+    - C:\Users\MINA\Documents\GitHub\padak_starter\assets\2.0x\ic_15.png
+    - C:\Users\MINA\Documents\GitHub\padak_starter\assets\2.0x\ic_19.png
+    - C:\Users\MINA\Documents\GitHub\padak_starter\assets\2.0x\ic_allages.png
+
+
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 
